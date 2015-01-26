@@ -24,7 +24,7 @@ body{
 
 
 h1{
-	font-family:  $sketch;
+	font-family: $sketch;
 	font-size:4rem;
 	font-weight:700;
 	margin-top: -1rem;
@@ -58,17 +58,17 @@ a {
 
 .icon-india{
 	font-size: 8rem;
-	color:#D9732B;
+	$india;
 }
 
 .icon-caribe{
 	font-size: 8rem;
-	color:#619FA8;
+	$caribe;
 }
 
 .icon-england{
 	font-size: 8rem;
-	color:#2F56A6;
+	$england;
 }
 
 .india{
