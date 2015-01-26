@@ -2,30 +2,38 @@
 <html lang="en-ca">
 <head>
 	<meta charset="utf-8">
-	<title>Responsive Setup</title>
+	<title>Intro to SCSS</title>
   <link href="css/style.css" rel="stylesheet" type="text/css">
-	<meta name="handheldfriendly" content="true">
-	<meta name="mobileoptimized" content="240">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/custom-fonts.css" rel="stylesheet">
+  <link href="css/hover.css" rel="stylesheet" media="all">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+  <link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:400,700' rel='stylesheet' type='text/css'>
+  <meta name="handheldfriendly" content="true">
+  <meta name="mobileoptimized" content="240">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
+  <p class="slideDown">My latest</p>
+  <h1 class="slideDown">Vacations</h1>
 
-	<h1>Intro to SCSS</h1>
+  <div class="vacations">
 
-    <a href="#" class="primary-btn">Primary</a>
-    <a href="#" class="secondary-btn">Secondary Button</a>
-
-    <div class="border">
-      <p>This is a nested paragraph</p>
+    <div class="india hvr-bounce-in">
+      <a href="http://en.wikipedia.org/wiki/India"><i class="icon-india box"></i></a>
+      <h2 class="hatch">India</h2>
     </div>
 
-    <p>This is a paragraph.</p>
+    <div class="caribe hvr-bounce-in">
+      <a href="http://en.wikipedia.org/wiki/Caribbean"><i class="icon-caribe box-2"></i></a>
+      <h2 class="hatch">Caribe</h2>
+    </div>
 
-    <ul>
-      <li><p>Item 1</p></li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-    </ul>
+    <div class="england hvr-bounce-in">
+      <a href="http://en.wikipedia.org/wiki/England"><i class="icon-england box-3"></i></a>
+      <h2 class="hatch">England</h2>
+    </div>
 
+  </div>
 </body>
 </html>
