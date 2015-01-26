@@ -34,7 +34,7 @@ h1 {
   font-weight: 700;
   margin-top: -1rem;
   margin-bottom: -2rem;
-  color: #FFFFFF; }
+  color: #fff; }
 
 /* line 35, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 h2 {
@@ -55,59 +55,68 @@ p {
 a {
   text-decoration: none; }
 
-/* line 55, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 54, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .vacations {
   text-align: center; }
 
-/* line 59, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
-.icon-india {
-  font-size: 8rem;
+/* line 58, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+.box {
   color: #D9732B; }
 
-/* line 64, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
-.icon-caribe {
-  font-size: 8rem;
+/* line 63, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+.box-2 {
   color: #619FA8; }
 
-/* line 69, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
-.icon-england {
-  font-size: 8rem;
+/* line 67, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+.box-3 {
   color: #2F56A6; }
 
-/* line 74, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 71, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+.icon-india {
+  font-size: 8rem; }
+
+/* line 75, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+.icon-caribe {
+  font-size: 8rem; }
+
+/* line 79, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+.icon-england {
+  font-size: 8rem; }
+
+/* line 83, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .india {
   width: 100%; }
 
-/* line 78, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 87, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .caribe {
   width: 100%; }
 
-/* line 82, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 91, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .england {
   width: 100%; }
 
 @media only screen and (min-width: 40em) {
-  /* line 88, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+  /* line 97, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
   h1 {
     font-size: 6rem; }
 
-  /* line 92, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+  /* line 101, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
   .india {
     width: 30%;
     display: inline-block; }
 
-  /* line 97, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+  /* line 106, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
   .caribe {
     width: 30%;
     display: inline-block; }
 
-  /* line 102, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+  /* line 111, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
   .england {
     width: 30%;
     display: inline-block; }
  }
 
-/* line 112, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 121, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .primary-btn {
   background-color: #D9732B;
   color: #fff;
@@ -121,7 +130,7 @@ a {
   .primary-btn:hover {
     background-color: #2980b9; }
 
-/* line 116, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 125, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .secondary-btn {
   background-color: #333;
   color: #fff;
@@ -135,10 +144,10 @@ a {
   .secondary-btn:hover {
     background-color: #666; }
 
-/* line 120, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 129, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .border, ul {
   border: 1px solid #ccc; }
-  /* line 123, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+  /* line 132, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
   .border p, ul p {
     color: red; }
 
@@ -147,7 +156,7 @@ a {
 TRANSITIONS
 ==============================================
 */
-/* line 138, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 147, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .box {
   width: 150px;
   height: 150px;
@@ -157,7 +166,7 @@ TRANSITIONS
   transition: color 1s ease-out;
   transition: all 0.3s ease-in; }
 
-/* line 151, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 160, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .box:hover {
   color: #D9854D;
   cursor: pointer;
@@ -166,7 +175,7 @@ TRANSITIONS
   -webkit-fill-color: #FFFFFF;
   text-shadow: 1px 0px 10px yellow; }
 
-/* line 160, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 169, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .box-2 {
   width: 150px;
   height: 150px;
@@ -176,7 +185,7 @@ TRANSITIONS
   transition: color 1s ease-out;
   transition: all 0.3s ease-in; }
 
-/* line 173, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 182, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .box-2:hover {
   color: #A0C9D9;
   cursor: pointer;
@@ -185,7 +194,7 @@ TRANSITIONS
   -webkit-fill-color: #FFFFFF;
   text-shadow: 1px 0px 10px #CBD3F1; }
 
-/* line 182, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 191, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .box-3 {
   width: 150px;
   height: 150px;
@@ -195,7 +204,7 @@ TRANSITIONS
   transition: color 1s ease-out;
   transition: all 0.3s ease-in; }
 
-/* line 195, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 204, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .box-3:hover {
   color: #506CA6;
   cursor: pointer;
@@ -204,7 +213,7 @@ TRANSITIONS
   -webkit-fill-color: #FFFFFF;
   text-shadow: 1px 0px 10px #DE0508; }
 
-/* line 205, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 214, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .slideDown {
   animation-name: slideDown;
   -webkit-animation-name: slideDown;
@@ -215,62 +224,62 @@ TRANSITIONS
   visibility: visible !important; }
 
 @keyframes slideDown {
-  /* line 219, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+  /* line 228, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
   0% {
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%); }
 
-  /* line 222, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+  /* line 231, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
   50% {
     -webkit-transform: translateY(8%);
             transform: translateY(8%); }
 
-  /* line 225, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+  /* line 234, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
   65% {
     -webkit-transform: translateY(-4%);
             transform: translateY(-4%); }
 
-  /* line 228, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+  /* line 237, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
   80% {
     -webkit-transform: translateY(4%);
             transform: translateY(4%); }
 
-  /* line 231, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+  /* line 240, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
   95% {
     -webkit-transform: translateY(-2%);
             transform: translateY(-2%); }
 
-  /* line 234, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+  /* line 243, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
   100% {
     -webkit-transform: translateY(0%);
             transform: translateY(0%); } }
 
 @-webkit-keyframes slideDown {
-  /* line 240, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+  /* line 249, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
   0% {
     -webkit-transform: translateY(-100%); }
 
-  /* line 243, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+  /* line 252, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
   50% {
     -webkit-transform: translateY(8%); }
 
-  /* line 246, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+  /* line 255, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
   65% {
     -webkit-transform: translateY(-4%); }
 
-  /* line 249, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+  /* line 258, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
   80% {
     -webkit-transform: translateY(4%); }
 
-  /* line 252, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+  /* line 261, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
   95% {
     -webkit-transform: translateY(-2%); }
 
-  /* line 255, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+  /* line 264, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
   100% {
     -webkit-transform: translateY(0%); } }
 
-/* line 261, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 270, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .hvr-bounce-in {
   display: inline-block;
   vertical-align: middle;
@@ -282,7 +291,7 @@ TRANSITIONS
   -moz-osx-font-smoothing: grayscale;
   transition-duration: 0.5s; }
 
-/* line 276, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 285, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .hvr-bounce-in:active, .hvr-bounce-in:focus, .hvr-bounce-in:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
@@ -311,7 +320,7 @@ FONTS
   }
 }
 */
-/* line 310, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 319, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "custom-fonts";
   font-style: normal;
@@ -336,17 +345,17 @@ FONTS
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-/* line 341, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 350, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .icon-caribe:before {
   content: '\e800'; }
 
 /* '' */
-/* line 342, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 351, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .icon-england:before {
   content: '\e801'; }
 
 /* '' */
-/* line 343, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 352, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .icon-india:before {
   content: '\e802'; }
 
