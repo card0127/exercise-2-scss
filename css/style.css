@@ -8,11 +8,88 @@ their css isn't compiled unless its imported into an unprefixed .scss file */
  you might want to reuse.
  SCSS uses the '$' symbol to declare variables. */
 /* line 3, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+html {
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%; }
+
+/* line 12, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* line 16, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
   background-image: url(../../images/concrete_wall.png);
   font-family: 'Amatic SC', cursive; }
 
-/* line 8, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 26, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+h1 {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: -1rem;
+  margin-bottom: -2rem;
+  color: #FFFFFF; }
+
+/* line 35, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+h2 {
+  font-size: 2.25rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 3rem;
+  color: #CBE0E3; }
+
+/* line 43, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+p {
+  font-size: 1.75rem;
+  font-weight: 300;
+  margin-top: 6rem;
+  color: #B3D4B5; }
+
+/* line 50, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+a {
+  text-decoration: none; }
+
+/* line 55, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+.vacations {
+  text-align: center; }
+
+/* line 59, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+.icon-india {
+  font-size: 8rem;
+  color: #D9732B; }
+
+/* line 64, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+.icon-caribe {
+  font-size: 8rem;
+  color: #619FA8; }
+
+/* line 69, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+.icon-england {
+  font-size: 8rem;
+  color: #2F56A6; }
+
+/* line 74, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+.india {
+  width: 100%;
+  display: inline-block; }
+
+/* line 79, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+.caribe {
+  width: 100%;
+  display: inline-block; }
+
+/* line 84, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+.england {
+  width: 100%;
+  display: inline-block; }
+
+/* line 92, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .primary-btn {
   background-color: #3498db;
   color: #fff;
@@ -26,7 +103,7 @@ body {
   .primary-btn:hover {
     background-color: #2980b9; }
 
-/* line 12, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 96, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .secondary-btn {
   background-color: #333;
   color: #fff;
@@ -40,10 +117,10 @@ body {
   .secondary-btn:hover {
     background-color: #666; }
 
-/* line 16, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 100, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .border, ul {
   border: 1px solid #ccc; }
-  /* line 19, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+  /* line 103, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
   .border p, ul p {
     color: red; }
 
@@ -65,7 +142,7 @@ body {
   }
 }
 */
-/* line 53, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 137, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "custom-fonts";
   font-style: normal;
@@ -90,17 +167,17 @@ body {
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-/* line 84, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 168, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .icon-caribe:before {
   content: '\e800'; }
 
 /* '' */
-/* line 85, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 169, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .icon-england:before {
   content: '\e801'; }
 
 /* '' */
-/* line 86, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 170, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .icon-india:before {
   content: '\e802'; }
 

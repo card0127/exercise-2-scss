@@ -1,9 +1,93 @@
 // Main
 
+html {
+	box-sizing: border-box;
+
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align:center;
 	background-image: url(../../images/concrete_wall.png);
 	font-family: $amatic;
 }
+
+
+h1{
+	font-family:  $sketch;
+	font-size:4rem;
+	font-weight:700;
+	margin-top: -1rem;
+	margin-bottom: -2rem;
+	color:#FFFFFF;
+}
+
+h2{
+	font-size:2.25rem;
+	font-weight:400;
+	text-transform: uppercase;
+	padding-top: 3rem;
+	color:#CBE0E3;
+}
+
+p{
+	font-size:1.75rem;
+	font-weight:300;
+	margin-top: 6rem;
+	color:#B3D4B5;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.vacations{
+	text-align:center;
+}
+
+.icon-india{
+	font-size: 8rem;
+	color:#D9732B;
+}
+
+.icon-caribe{
+	font-size: 8rem;
+	color:#619FA8;
+}
+
+.icon-england{
+	font-size: 8rem;
+	color:#2F56A6;
+}
+
+.india{
+	width: 100%;
+	display:inline-block;
+}
+
+.caribe{
+	width: 100%;
+	display:inline-block;
+}
+
+.england{
+	width: 100%;
+	display:inline-block;
+}
+
+
+
 
 .primary-btn{
 	@include button($primary, $primary-dark, #fff);
