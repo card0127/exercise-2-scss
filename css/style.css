@@ -9,7 +9,7 @@ their css isn't compiled unless its imported into an unprefixed .scss file */
  SCSS uses the '$' symbol to declare variables. */
 /* line 3, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 body {
-  background-color: #fff;
+  background-image: #fff;
   font-family: Helvetica, Arial, sans-serif; }
 
 /* line 8, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
@@ -47,3 +47,60 @@ body {
   .border p, ul p {
     color: red; }
 
+@font-face {
+  font-family: 'custom-fonts';
+  src: url('../fonts/custom-fonts.eot?16999607');
+  src: url('../fonts/custom-fonts.eot?16999607#iefix') format('embedded-opentype'), url('../fonts/custom-fonts.woff?16999607') format('woff'), url('../fonts/custom-fonts.ttf?16999607') format('truetype'), url('../fonts/custom-fonts.svg?16999607#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?16999607#fontello') format('svg');
+  }
+}
+*/
+/* line 53, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "custom-fonts";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: 0.2em
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+/* line 84, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+.icon-caribe:before {
+  content: '\e800'; }
+
+/* '' */
+/* line 85, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+.icon-england:before {
+  content: '\e801'; }
+
+/* '' */
+/* line 86, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+.icon-india:before {
+  content: '\e802'; }
+
+/* '' */
