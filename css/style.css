@@ -9,7 +9,7 @@ their css isn't compiled unless its imported into an unprefixed .scss file */
  SCSS uses the '$' symbol to declare variables. */
 /* line 3, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 body {
-  background-image: #fff;
+  background-image: #333;
   font-family: Helvetica, Arial, sans-serif; }
 
 /* line 8, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
