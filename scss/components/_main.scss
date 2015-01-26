@@ -71,15 +71,15 @@ a {
 }
 
 .india{
-	width: 100%;
+	width: $icon-width1;
 }
 
 .caribe{
-	width: 100%;
+	width: $icon-width1;
 }
 
 .england{
-	width: 100%;
+	width: $icon-width1;
 }
 
 @media only screen and (min-width:40em) {
@@ -89,18 +89,18 @@ h1{
 }
 
 .india{
-	width: 30%;
-	display:inline-block;
+	width: $icon-width2;
+	display: $inline;
 }
 
 .caribe{
-	width: 30%;
-	display:inline-block;
+	width: $icon-width2;
+	display: $inline;
 }
 
 .england{
-	width: 30%;
-	display:inline-block;
+	width: $icon-width2;
+	display: $inline;
 }
 	
 }
@@ -151,8 +151,8 @@ TRANSITIONS
   color: #A0C9D9;
   cursor: pointer;
   -webkit-stroke-width: 3px;
-  -webkit-stroke-color: #FFFFFF;
-  -webkit-fill-color: #FFFFFF;
+  -webkit-stroke-color: $white;
+  -webkit-fill-color: $white;
   text-shadow: 1px 0px 10px #CBD3F1;
 }
 
@@ -173,8 +173,8 @@ TRANSITIONS
   color: #506CA6;
   cursor: pointer;
   -webkit-stroke-width: 3px;
-  -webkit-stroke-color: #FFFFFF;
-  -webkit-fill-color: #FFFFFF;
+  -webkit-stroke-color: $white;
+  -webkit-fill-color: $white;
   text-shadow: 1px 0px 10px #DE0508;
 }
 
@@ -273,46 +273,21 @@ FONTS
   font-weight: normal;
   font-style: normal;
 }
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?16999607#fontello') format('svg');
-  }
-}
-*/
 
  [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "custom-fonts";
   font-style: normal;
   font-weight: normal;
   speak: none;
-
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
   margin-right: .2em;
   text-align: center;
-  /* opacity: .8; */
-
-  /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   text-transform: none;
-
-  /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
-
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
   margin-left: .2em;
-
-  /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
-
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
 .icon-caribe:before { content: '\e800'; } /* '' */

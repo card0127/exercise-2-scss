@@ -146,8 +146,8 @@ TRANSITIONS
   color: #A0C9D9;
   cursor: pointer;
   -webkit-stroke-width: 3px;
-  -webkit-stroke-color: #FFFFFF;
-  -webkit-fill-color: #FFFFFF;
+  -webkit-stroke-color: #fff;
+  -webkit-fill-color: #fff;
   text-shadow: 1px 0px 10px #CBD3F1; }
 
 /* line 159, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
@@ -165,8 +165,8 @@ TRANSITIONS
   color: #506CA6;
   cursor: pointer;
   -webkit-stroke-width: 3px;
-  -webkit-stroke-color: #FFFFFF;
-  -webkit-fill-color: #FFFFFF;
+  -webkit-stroke-color: #fff;
+  -webkit-fill-color: #fff;
   text-shadow: 1px 0px 10px #DE0508; }
 
 /* line 182, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
@@ -266,17 +266,7 @@ FONTS
   font-weight: normal;
   font-style: normal; }
 
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?16999607#fontello') format('svg');
-  }
-}
-*/
-/* line 287, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 277, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "custom-fonts";
   font-style: normal;
@@ -287,31 +277,22 @@ FONTS
   width: 1em;
   margin-right: 0.2em;
   text-align: center;
-  /* opacity: .8; */
-  /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   text-transform: none;
-  /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
-  margin-left: 0.2em
-  /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+  margin-left: 0.2em; }
 
-/* line 318, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 293, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .icon-caribe:before {
   content: '\e800'; }
 
 /* '' */
-/* line 319, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 294, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .icon-england:before {
   content: '\e801'; }
 
 /* '' */
-/* line 320, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
+/* line 295, /Users/pedrosantos/Dropbox/Graphic Design/Semestre 6/Web Development/exercise-2-scss/scss/components/main */
 .icon-india:before {
   content: '\e802'; }
 
