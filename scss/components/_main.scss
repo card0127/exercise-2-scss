@@ -57,18 +57,18 @@ a {
 }
 
 .icon-india{
-	font-size: 4rem;
-	$india;
+	font-size: 8rem;
+	color:$primary;
 }
 
 .icon-caribe{
-	font-size: 4rem;
-	$caribe;
+	font-size: 8rem;
+	color:#619FA8;
 }
 
 .icon-england{
-	font-size: 4rem;
-	$england;
+	font-size: 8rem;
+	color:#2F56A6;
 }
 
 .india{
@@ -109,9 +109,162 @@ ul{
 	@extend .border;
 }
 
+/*
+==============================================
+TRANSITIONS
+==============================================
+*/
+
+.box {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: color 1s ease-out;
+  -moz-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+  transition: all 0.3s ease-in;
+}
+
+.box:hover {
+  color: #D9854D;
+  cursor: pointer;
+  -webkit-stroke-width: 3px;
+  -webkit-stroke-color: #FFFFFF;
+  -webkit-fill-color: #FFFFFF;
+  text-shadow: 1px 0px 10px yellow;
+}
+
+.box-2 {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: color 1s ease-out;
+  -moz-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+  transition: all 0.3s ease-in;
+}
+
+.box-2:hover {
+  color: #A0C9D9;
+  cursor: pointer;
+  -webkit-stroke-width: 3px;
+  -webkit-stroke-color: #FFFFFF;
+  -webkit-fill-color: #FFFFFF;
+  text-shadow: 1px 0px 10px #CBD3F1;
+}
+
+.box-3 {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: color 1s ease-out;
+  -moz-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+  transition: all 0.3s ease-in;
+}
+
+.box-3:hover {
+  color: #506CA6;
+  cursor: pointer;
+  -webkit-stroke-width: 3px;
+  -webkit-stroke-color: #FFFFFF;
+  -webkit-fill-color: #FFFFFF;
+  text-shadow: 1px 0px 10px #DE0508;
+}
 
 
-/*================ FONTS ===============================*/
+.slideDown{
+	animation-name: slideDown;
+	-webkit-animation-name: slideDown;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;	
+
+	visibility: visible !important;						
+}
+
+@keyframes slideDown {
+	0% {
+		transform: translateY(-100%);
+	}
+	50%{
+		transform: translateY(8%);
+	}
+	65%{
+		transform: translateY(-4%);
+	}
+	80%{
+		transform: translateY(4%);
+	}
+	95%{
+		transform: translateY(-2%);
+	}			
+	100% {
+		transform: translateY(0%);
+	}		
+}
+
+@-webkit-keyframes slideDown {
+	0% {
+		-webkit-transform: translateY(-100%);
+	}
+	50%{
+		-webkit-transform: translateY(8%);
+	}
+	65%{
+		-webkit-transform: translateY(-4%);
+	}
+	80%{
+		-webkit-transform: translateY(4%);
+	}
+	95%{
+		-webkit-transform: translateY(-2%);
+	}			
+	100% {
+		-webkit-transform: translateY(0%);
+	}	
+}
+
+
+.hvr-bounce-in{
+	display:inline-block;
+	vertical-align:middle;
+	-webkit-transform:translateZ(0);
+	transform:translateZ(0);
+	box-shadow:0 0 1px rgba(0,0,0,0);
+	-webkit-backface-visibility:hidden;
+	backface-visibility:hidden;
+	-moz-osx-font-smoothing:grayscale;
+	-webkit-transition-duration:.5s;
+	transition-duration:.5s;
+	}
+	
+.hvr-bounce-in:active,
+.hvr-bounce-in:focus,
+.hvr-bounce-in:hover{
+	-webkit-transform:scale(1.2);
+	transform:scale(1.2);
+	-webkit-transition-timing-function:cubic-bezier(0.47,2.02,.31,-.36);
+	transition-timing-function:cubic-bezier(0.47,2.02,.31,-.36)
+}
+
+/*
+==============================================
+FONTS
+==============================================
+*/
 
 @font-face {
   font-family: 'custom-fonts';
